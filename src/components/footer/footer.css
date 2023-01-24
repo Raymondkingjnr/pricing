@@ -1,0 +1,36 @@
+.app__footer {
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.app__footer-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: var(--font-base);
+  gap: 10px;
+  font-size: 30px;
+  width: 25%;
+  margin-top: 3rem;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.app__footer-btn:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1300px) {
+  .app__footer-btn {
+    width: 200px;
+    padding: 5px;
+  }
+  .app__footer-notes {
+    text-align: center;
+  }
+  .app__footer-btn p {
+    font-size: 17px;
+  }
+}

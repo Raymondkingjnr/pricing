@@ -3,7 +3,7 @@ import { Nav, Header, Plans, Footer } from "./components";
 function App() {
   return (
     <div>
-      <div>
+      <div className="header__bg">
         <Nav />
         <Header />
       </div>

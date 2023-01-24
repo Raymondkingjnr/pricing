@@ -11,9 +11,7 @@
   font-size: 68px;
   font-family: var(--font-base);
 }
-.section__padding {
-  padding: 4rem 6rem;
-}
+
 .p__opensans {
   font-family: var(--font-base);
   font-weight: 600;
@@ -21,4 +19,14 @@
   text-transform: capitalize;
   line-height: 28px;
   font-size: 24px;
+}
+.header__bg {
+  background-color: #ebf3fa;
+  width: 100%;
+  border-bottom-right-radius: 70%;
+}
+.section__width {
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
 }

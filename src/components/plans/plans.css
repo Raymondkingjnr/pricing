@@ -1,0 +1,144 @@
+.app__plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 7rem;
+}
+.app__plans-years {
+  display: flex;
+  flex-direction: column;
+}
+.app__plans-billed {
+  justify-content: flex-start;
+  align-items: center;
+}
+.app__plans-monthly {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0.5rem;
+  background: #ebf3fa;
+  padding: 15px;
+  width: 270px;
+  border-radius: 40px;
+}
+.app__plans-monthly p:first-child {
+  background: blue;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-right: 1rem;
+}
+.app__plans-monthly p {
+  cursor: pointer;
+}
+.app__plans-billed h2 {
+  font-weight: 700;
+  margin-right: 2rem;
+  font-family: var(--font-base);
+  font-size: 40px;
+}
+.app__plans-billed {
+  font-weight: 700;
+  margin-right: 1rem;
+  font-family: var(--font-base);
+  font-size: 40px;
+}
+.p__billed {
+  margin-top: 0.5rem;
+}
+.app__plans-notes {
+  margin-top: 2rem;
+  /* max-width: 1000px; */
+}
+.app__plans-notes p {
+  line-height: 1.4em;
+  letter-spacing: 0.04em;
+}
+.app__plans-budget {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 3rem;
+}
+.underline__div {
+  width: 100%;
+  margin-top: 1rem;
+  height: 2px;
+  background: gray;
+}
+.app__plans-budget__basic,
+.app__plans-budget__business,
+.app__plans-budget__enterprise {
+  width: 100%;
+  background-color: #ebf3fa;
+  height: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.app__plans-budget__basic:hover,
+.app__plans-budget__business:hover,
+.app__plans-budget__enterprise:hover {
+  transform: scale(1.1);
+}
+
+.app__plans-budget h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.app__plans-budget h3 {
+  color: blue;
+  font-size: 30px;
+}
+
+.budget__benefit {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.app__plans-budget__basic .app__plans-btn {
+  margin-top: 11rem;
+}
+.app__plans-btn {
+  font-family: var(--font-base);
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+  background: blue;
+  cursor: pointer;
+  border: none;
+  width: 200px;
+  transition: all 0.2s ease-in-out;
+}
+.app__plans-btn:hover {
+  transform: scale(1.1);
+}
+.app__plans-budget__business .app__plans-btn {
+  margin-top: 7rem;
+}
+.app__plans-budget__enterprise .app__plans-btn {
+  margin-top: 3.5rem;
+}
+@media screen and (max-width: 1150px) {
+  .app__plans-budget {
+    flex-direction: column;
+  }
+  .app__plans p {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 650px) {
+  .app__plans-billed {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
