@@ -26,7 +26,7 @@ const Nav = () => {
           <div className="nav__bar-smallscreen-overlay flex__center slide-bottom">
             <MdClose
               color="#fff"
-              fontSize={30}
+              fontSize={40}
               className="overlay__close"
               onClick={() => setToggle(false)}
             />

@@ -141,4 +141,7 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
+  .app__plans-monthly {
+    margin-top: 1rem;
+  }
 }
